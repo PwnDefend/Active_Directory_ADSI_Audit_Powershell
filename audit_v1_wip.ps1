@@ -230,3 +230,6 @@ New-Object psObject -Property $props
 ([adsisearcher]'(&(objectCategory=person)(objectClass=user)(description=password*))').FindAll()
 
 
+#List Ad SUbnets from sites and services
+$ADSI = ([ADSI]"LDAP://CN=Subnets,CN=Sites,CN=Configuration,DC=Unatco,DC=local")
+$ADSI.psbase.Children | Format-Table name
