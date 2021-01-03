@@ -9,3 +9,7 @@ https://identityandsecuritydotcom.files.wordpress.com/2020/12/adsi-edit-en-v1.1.
 It's not everything but its enuff to do some good recon. It needs tidying up still. Awesome work by https://twitter.com/DebugPrivilege
 
 @DebugPrivilege rocks!
+
+go read this as well!
+https://security-tzu.com/2020/10/22/manage-active-directory-objects-with-adsi/
+
